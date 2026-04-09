@@ -14,10 +14,11 @@
   <img src="https://img.shields.io/badge/FramerMotion-Animations-pink?style=for-the-badge&logo=framer" />
 </p>
 
+<img width="1906" height="814" alt="Screenshot 2026-04-09 205216" src="https://github.com/user-attachments/assets/6785be5c-a032-495a-9c31-07c911594405" />
+
 ---
 
 ## 🌐 Live Demo
-<img width="1906" height="814" alt="image" src="https://github.com/user-attachments/assets/27e2ad7f-7d7a-4217-9583-a297b87bd28e" />
 
 
 👉 https://your-portfolio-link.vercel.app
