@@ -116,3 +116,18 @@ public/
  │
  ├── hero-astronaut.png
  ├── resume.pdf
+
+```
+---
+## 🔮 Future Improvements
+ - 🌗 Dark/Light mode toggle
+ - 📝 Blog section
+ - 📊 Analytics dashboard
+ - 🔍 Project filtering
+ - 🌍 Custom domain
+---
+## 📬 Contact Me
+ - 📧 Email: singhsaurabh12003@gmail.com
+ - 💻 GitHub: https://github.com/Saurabhvch12003
+ - 🔗 LinkedIn: https://www.linkedin.com/in/saurabh-singh-vch12003
+ 
