@@ -1,7 +1,7 @@
 <h1 align="center">🚀 Saurabh Singh Portfolio</h1>
 
 <p align="center">
-  <b>Java Backend Developer | Full Stack Engineer | Problem Solver</b>
+  <b>Java Developer | Full Stack Engineer | Problem Solver</b>
 </p>
 
 <p align="center">
@@ -17,6 +17,8 @@
 ---
 
 ## 🌐 Live Demo
+<img width="1906" height="814" alt="image" src="https://github.com/user-attachments/assets/27e2ad7f-7d7a-4217-9583-a297b87bd28e" />
+
 
 👉 https://your-portfolio-link.vercel.app
 
