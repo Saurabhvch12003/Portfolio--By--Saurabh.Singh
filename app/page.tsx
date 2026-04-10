@@ -325,7 +325,7 @@ export default function Home() {
 
   
 
-  <div className="absolute bottom-10 animate-bounce text-gray-400">
+  <div className="absolute bottom-6 md:bottom-10 left-1/2 -translate-x-1/2 animate-bounce text-gray-400">
     ↓ Scroll
   </div>
 </section>  
