@@ -286,54 +286,48 @@ export default function Home() {
   initial={{ opacity: 0, y: 20 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ duration: 0.7, delay: 1.5 }}
-  className="mt-8 flex flex-wrap items-center justify-center md:justify-start gap-4 z-10"
+  className="mt-8 flex flex-wrap items-center justify-center md:justify-start gap-4"
 >
-  {/* GitHub */}
   <a
     href="https://github.com/Saurabhvch12003"
     target="_blank"
     rel="noopener noreferrer"
     title="GitHub"
     aria-label="Visit my GitHub profile"
-    className="group relative flex h-12 w-12 items-center justify-center rounded-full border border-cyan-400/30 bg-[#111827]/80 text-cyan-300 backdrop-blur-xl shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-105 hover:border-cyan-400 hover:bg-cyan-400/10 hover:text-cyan-200 hover:shadow-[0_0_22px_rgba(34,211,238,0.45)] active:scale-95"
+    className="group flex h-12 w-12 items-center justify-center rounded-full border border-cyan-400/30 bg-[#111827]/80 text-cyan-300 backdrop-blur-xl shadow-lg transition duration-300 hover:-translate-y-1 hover:border-cyan-400 hover:bg-cyan-400/10 active:scale-95"
   >
-    <span className="absolute inset-0 rounded-full bg-cyan-400/0 blur-md transition duration-300 group-hover:bg-cyan-400/10" />
-    <FaGithub size={20} className="relative transition duration-300 group-hover:scale-110" />
+    <FaGithub size={20} className="transition duration-300 group-hover:scale-110" />
   </a>
 
-  {/* LinkedIn */}
   <a
     href="https://www.linkedin.com/in/saurabh-singh-vch12003"
     target="_blank"
     rel="noopener noreferrer"
     title="LinkedIn"
     aria-label="Visit my LinkedIn profile"
-    className="group relative flex h-12 w-12 items-center justify-center rounded-full border border-cyan-400/30 bg-[#111827]/80 text-cyan-300 backdrop-blur-xl shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-105 hover:border-cyan-400 hover:bg-cyan-400/10 hover:text-cyan-200 hover:shadow-[0_0_22px_rgba(34,211,238,0.45)] active:scale-95"
+    className="group flex h-12 w-12 items-center justify-center rounded-full border border-cyan-400/30 bg-[#111827]/80 text-cyan-300 backdrop-blur-xl shadow-lg transition duration-300 hover:-translate-y-1 hover:border-cyan-400 hover:bg-cyan-400/10 active:scale-95"
   >
-    <span className="absolute inset-0 rounded-full bg-cyan-400/0 blur-md transition duration-300 group-hover:bg-cyan-400/10" />
-    <FaLinkedin size={20} className="relative transition duration-300 group-hover:scale-110" />
+    <FaLinkedin size={20} className="transition duration-300 group-hover:scale-110" />
   </a>
 
-  {/* LeetCode */}
   <a
     href="https://leetcode.com/Saurabh_12003"
     target="_blank"
     rel="noopener noreferrer"
     title="LeetCode"
     aria-label="Visit my LeetCode profile"
-    className="group relative flex h-12 w-12 items-center justify-center rounded-full border border-cyan-400/30 bg-[#111827]/80 text-cyan-300 backdrop-blur-xl shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-105 hover:border-cyan-400 hover:bg-cyan-400/10 hover:text-cyan-200 hover:shadow-[0_0_22px_rgba(34,211,238,0.45)] active:scale-95"
+    className="group flex h-12 w-12 items-center justify-center rounded-full border border-cyan-400/30 bg-[#111827]/80 text-cyan-300 backdrop-blur-xl shadow-lg transition duration-300 hover:-translate-y-1 hover:border-cyan-400 hover:bg-cyan-400/10 active:scale-95"
   >
-    <span className="absolute inset-0 rounded-full bg-cyan-400/0 blur-md transition duration-300 group-hover:bg-cyan-400/10" />
-    <FaCode size={18} className="relative transition duration-300 group-hover:scale-110" />
+    <FaCode size={18} className="transition duration-300 group-hover:scale-110" />
   </a>
 </motion.div>
   </div>
 
   
 
-  <div className="absolute bottom-6 md:bottom-10 left-1/2 -translate-x-1/2 animate-bounce text-gray-400">
-    ↓ Scroll
-  </div>
+  <div className="absolute bottom-4 md:bottom-8 left-1/2 -translate-x-1/2 animate-bounce text-gray-400 z-10">
+  ↓ Scroll
+</div>
 </section>  
           <AboutMe />
 
