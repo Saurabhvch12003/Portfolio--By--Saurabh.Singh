@@ -282,8 +282,12 @@ export default function Home() {
       />
     </div>
 
-    <div className="mt-8 flex gap-4">
-
+    <motion.div
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.7, delay: 1.5 }}
+  className="mt-8 flex flex-wrap items-center justify-center md:justify-start gap-4 z-10"
+>
   {/* GitHub */}
   <a
     href="https://github.com/Saurabhvch12003"
@@ -291,9 +295,10 @@ export default function Home() {
     rel="noopener noreferrer"
     title="GitHub"
     aria-label="Visit my GitHub profile"
-    className="group w-12 h-12 flex items-center justify-center rounded-full border border-cyan-400/30 bg-[#111827]/80 backdrop-blur-xl text-cyan-300 shadow-lg transition hover:-translate-y-1 hover:border-cyan-400 hover:bg-cyan-400/10 hover:shadow-[0_0_20px_#22d3ee]"
+    className="group relative flex h-12 w-12 items-center justify-center rounded-full border border-cyan-400/30 bg-[#111827]/80 text-cyan-300 backdrop-blur-xl shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-105 hover:border-cyan-400 hover:bg-cyan-400/10 hover:text-cyan-200 hover:shadow-[0_0_22px_rgba(34,211,238,0.45)] active:scale-95"
   >
-    <FaGithub size={20} className="group-hover:scale-110 transition" />
+    <span className="absolute inset-0 rounded-full bg-cyan-400/0 blur-md transition duration-300 group-hover:bg-cyan-400/10" />
+    <FaGithub size={20} className="relative transition duration-300 group-hover:scale-110" />
   </a>
 
   {/* LinkedIn */}
@@ -303,9 +308,10 @@ export default function Home() {
     rel="noopener noreferrer"
     title="LinkedIn"
     aria-label="Visit my LinkedIn profile"
-    className="group w-12 h-12 flex items-center justify-center rounded-full border border-cyan-400/30 bg-[#111827]/80 backdrop-blur-xl text-cyan-300 shadow-lg transition hover:-translate-y-1 hover:border-cyan-400 hover:bg-cyan-400/10 hover:shadow-[0_0_20px_#22d3ee]"
+    className="group relative flex h-12 w-12 items-center justify-center rounded-full border border-cyan-400/30 bg-[#111827]/80 text-cyan-300 backdrop-blur-xl shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-105 hover:border-cyan-400 hover:bg-cyan-400/10 hover:text-cyan-200 hover:shadow-[0_0_22px_rgba(34,211,238,0.45)] active:scale-95"
   >
-    <FaLinkedin size={20} className="group-hover:scale-110 transition" />
+    <span className="absolute inset-0 rounded-full bg-cyan-400/0 blur-md transition duration-300 group-hover:bg-cyan-400/10" />
+    <FaLinkedin size={20} className="relative transition duration-300 group-hover:scale-110" />
   </a>
 
   {/* LeetCode */}
@@ -315,12 +321,12 @@ export default function Home() {
     rel="noopener noreferrer"
     title="LeetCode"
     aria-label="Visit my LeetCode profile"
-    className="group w-12 h-12 flex items-center justify-center rounded-full border border-cyan-400/30 bg-[#111827]/80 backdrop-blur-xl text-cyan-300 shadow-lg transition hover:-translate-y-1 hover:border-cyan-400 hover:bg-cyan-400/10 hover:shadow-[0_0_20px_#22d3ee]"
+    className="group relative flex h-12 w-12 items-center justify-center rounded-full border border-cyan-400/30 bg-[#111827]/80 text-cyan-300 backdrop-blur-xl shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-105 hover:border-cyan-400 hover:bg-cyan-400/10 hover:text-cyan-200 hover:shadow-[0_0_22px_rgba(34,211,238,0.45)] active:scale-95"
   >
-    <FaCode size={18} className="group-hover:scale-110 transition" />
+    <span className="absolute inset-0 rounded-full bg-cyan-400/0 blur-md transition duration-300 group-hover:bg-cyan-400/10" />
+    <FaCode size={18} className="relative transition duration-300 group-hover:scale-110" />
   </a>
-
-</div>
+</motion.div>
   </div>
 
   
