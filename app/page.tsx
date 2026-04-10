@@ -282,45 +282,7 @@ export default function Home() {
       />
     </div>
 
-    <motion.div
-  initial={{ opacity: 0, y: 20 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.7, delay: 1.5 }}
-  className="mt-8 flex flex-wrap items-center justify-center md:justify-start gap-4"
->
-  <a
-    href="https://github.com/Saurabhvch12003"
-    target="_blank"
-    rel="noopener noreferrer"
-    title="GitHub"
-    aria-label="Visit my GitHub profile"
-    className="group flex h-12 w-12 items-center justify-center rounded-full border border-cyan-400/30 bg-[#111827]/80 text-cyan-300 backdrop-blur-xl shadow-lg transition duration-300 hover:-translate-y-1 hover:border-cyan-400 hover:bg-cyan-400/10 active:scale-95"
-  >
-    <FaGithub size={20} className="transition duration-300 group-hover:scale-110" />
-  </a>
-
-  <a
-    href="https://www.linkedin.com/in/saurabh-singh-vch12003"
-    target="_blank"
-    rel="noopener noreferrer"
-    title="LinkedIn"
-    aria-label="Visit my LinkedIn profile"
-    className="group flex h-12 w-12 items-center justify-center rounded-full border border-cyan-400/30 bg-[#111827]/80 text-cyan-300 backdrop-blur-xl shadow-lg transition duration-300 hover:-translate-y-1 hover:border-cyan-400 hover:bg-cyan-400/10 active:scale-95"
-  >
-    <FaLinkedin size={20} className="transition duration-300 group-hover:scale-110" />
-  </a>
-
-  <a
-    href="https://leetcode.com/Saurabh_12003"
-    target="_blank"
-    rel="noopener noreferrer"
-    title="LeetCode"
-    aria-label="Visit my LeetCode profile"
-    className="group flex h-12 w-12 items-center justify-center rounded-full border border-cyan-400/30 bg-[#111827]/80 text-cyan-300 backdrop-blur-xl shadow-lg transition duration-300 hover:-translate-y-1 hover:border-cyan-400 hover:bg-cyan-400/10 active:scale-95"
-  >
-    <FaCode size={18} className="transition duration-300 group-hover:scale-110" />
-  </a>
-</motion.div>
+    
   </div>
 
   
@@ -646,6 +608,46 @@ export default function Home() {
         </AnimatePresence>
       </form>
     </motion.div>
+    <motion.div
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.7, delay: 1.5 }}
+  className="mt-8 flex flex-wrap items-center justify-center md:justify-start gap-4"
+>
+  <a
+    href="https://github.com/Saurabhvch12003"
+    target="_blank"
+    rel="noopener noreferrer"
+    title="GitHub"
+    aria-label="Visit my GitHub profile"
+    className="group flex h-12 w-12 items-center justify-center rounded-full border border-cyan-400/30 bg-[#111827]/80 text-cyan-300 backdrop-blur-xl shadow-lg transition duration-300 hover:-translate-y-1 hover:border-cyan-400 hover:bg-cyan-400/10 active:scale-95"
+  >
+    <FaGithub size={20} className="transition duration-300 group-hover:scale-110" />
+  </a>
+
+  <a
+    href="https://www.linkedin.com/in/saurabh-singh-vch12003"
+    target="_blank"
+    rel="noopener noreferrer"
+    title="LinkedIn"
+    aria-label="Visit my LinkedIn profile"
+    className="group flex h-12 w-12 items-center justify-center rounded-full border border-cyan-400/30 bg-[#111827]/80 text-cyan-300 backdrop-blur-xl shadow-lg transition duration-300 hover:-translate-y-1 hover:border-cyan-400 hover:bg-cyan-400/10 active:scale-95"
+  >
+    <FaLinkedin size={20} className="transition duration-300 group-hover:scale-110" />
+  </a>
+
+  <a
+    href="https://leetcode.com/Saurabh_12003"
+    target="_blank"
+    rel="noopener noreferrer"
+    title="LeetCode"
+    aria-label="Visit my LeetCode profile"
+    className="group flex h-12 w-12 items-center justify-center rounded-full border border-cyan-400/30 bg-[#111827]/80 text-cyan-300 backdrop-blur-xl shadow-lg transition duration-300 hover:-translate-y-1 hover:border-cyan-400 hover:bg-cyan-400/10 active:scale-95"
+  >
+    <FaCode size={18} className="transition duration-300 group-hover:scale-110" />
+  </a>
+</motion.div>
+    
   </div>
 </section>
           <footer className="text-center py-6 text-gray-500 border-t border-gray-800">
